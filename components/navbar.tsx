@@ -67,12 +67,14 @@ export const Navbar = () => {
           </Link>
           <ThemeSwitch />
           <div className="flex items-center justify-center gap-x-6">
-            <ShimmerButton className="shadow-2xl">
-              <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-                Resume
-              </span>
-              <BorderBeam delay={9} duration={12} size={250} />
-            </ShimmerButton>
+            <Link href="https://drive.usercontent.google.com/u/1/uc?id=1SPwhK8euPgV4u028zwIg743ihY1t_Yws&export=download">
+              <ShimmerButton className="shadow-2xl">
+                <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+                  Resume
+                </span>
+                <BorderBeam delay={9} duration={12} size={250} />
+              </ShimmerButton>
+            </Link>
           </div>
         </NavbarItem>
       </NavbarContent>
