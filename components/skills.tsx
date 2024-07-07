@@ -264,7 +264,7 @@ const Skills = () => {
               <BorderBeam delay={9} duration={12} size={300} />
             </div>
             <div className="relative flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg box">
-              <div className="col text-2xl h4">DevOps</div>
+              <div className="col text-2xl h4">Tools</div>
               <div className="col flex flex-row flex-wrap gap-4">
                 <div className="col">
                   <p>
