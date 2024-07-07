@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 import {
   Link,
   Navbar as NextUINavbar,
@@ -14,19 +14,17 @@ import {
 import NextLink from "next/link";
 import clsx from "clsx";
 
-import { siteConfig } from "@/config/site";
-import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  LinkedinIcon,
-  GithubIcon,
-} from "@/components/icons";
-import { Logo } from "@/components/icons";
 import ShimmerButton from "./ui/shimmer-button";
 import { BorderBeam } from "./ui/border-beam";
 
+import { siteConfig } from "@/config/site";
+import { ThemeSwitch } from "@/components/theme-switch";
+import { LinkedinIcon, GithubIcon } from "@/components/icons";
+import { Logo } from "@/components/icons";
+
 export const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" className="sticky top-0 z-50">
+    <NextUINavbar className="sticky top-0 z-50" maxWidth="xl">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
@@ -38,16 +36,16 @@ export const Navbar = () => {
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <ScrollLink
-                to={item.href.slice(1)}
-                smooth={true}
-                duration={500}
-                spy={true}
-                offset={-70}
+                activeClass="data-[active=true]"
                 className={clsx(
                   linkStyles({ color: "foreground" }),
                   "cursor-pointer data-[active=true]:text-primary data-[active=true]:font-medium",
                 )}
-                activeClass="data-[active=true]"
+                duration={500}
+                offset={-70}
+                smooth={true}
+                spy={true}
+                to={item.href.slice(1)}
               >
                 {item.label}
               </ScrollLink>
@@ -73,7 +71,7 @@ export const Navbar = () => {
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                 Resume
               </span>
-              <BorderBeam size={250} duration={12} delay={9} />
+              <BorderBeam delay={9} duration={12} size={250} />
             </ShimmerButton>
           </div>
         </NavbarItem>
@@ -95,20 +93,20 @@ export const Navbar = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <ScrollLink
-                to={item.href.slice(1)}
-                smooth={true}
-                duration={500}
-                spy={true}
-                offset={-70}
+                activeClass="text-primary font-medium"
                 className={clsx(
                   linkStyles({ color: "foreground" }),
                   "cursor-pointer",
                   {
                     "text-primary": index === 2,
                     "text-danger": index === siteConfig.navMenuItems.length - 1,
-                  }
+                  },
                 )}
-                activeClass="text-primary font-medium"
+                duration={500}
+                offset={-70}
+                smooth={true}
+                spy={true}
+                to={item.href.slice(1)}
               >
                 {item.label}
               </ScrollLink>
@@ -119,7 +117,7 @@ export const Navbar = () => {
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                 Resume
               </span>
-              <BorderBeam size={250} duration={12} delay={9} />
+              <BorderBeam delay={9} duration={12} size={250} />
             </ShimmerButton>
           </div>
         </div>

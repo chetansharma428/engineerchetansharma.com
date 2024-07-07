@@ -18,6 +18,7 @@ export const Meteors = ({ number = 30 }: MeteorsProps) => {
       animationDelay: Math.random() * 1 + 0.2 + "s",
       animationDuration: Math.floor(Math.random() * 8 + 2) + "s",
     }));
+
     setMeteorStyles(styles);
   }, [number]);
 

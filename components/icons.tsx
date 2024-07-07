@@ -7,18 +7,57 @@ export const Logo: React.FC<IconSvgProps> = ({
   height,
   ...props
 }) => (
-  <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  {/* <!-- Background --> */}
-  {/* <rect width="100" height="100" fill="black"/> */}
+  <svg
+    height="50"
+    viewBox="0 0 100 100"
+    width="50"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* <!-- Background --> */}
+    {/* <rect width="100" height="100" fill="black"/> */}
 
-  {/* <!-- Cross lines --> */}
-  <line x1="10" y1="10" x2="90" y2="90" stroke="currentColor" stroke-width="5"/>
-  <line x1="90" y1="10" x2="10" y2="90" stroke="currentColor" stroke-width="5"/>
+    {/* <!-- Cross lines --> */}
+    <line
+      stroke="currentColor"
+      strokeWidth="5"
+      x1="10"
+      x2="90"
+      y1="10"
+      y2="90"
+    />
+    <line
+      stroke="currentColor"
+      strokeWidth="5"
+      x1="90"
+      x2="10"
+      y1="10"
+      y2="90"
+    />
 
-  {/* <!-- Letters --> */}
-  <text x="50" y="30" font-family="Arial" font-size="40" fill="currentColor" text-anchor="middle" alignment-baseline="middle">C</text>
-  <text x="50" y="80" font-family="Arial" font-size="40" fill="currentColor" text-anchor="middle" alignment-baseline="middle">S</text>
-</svg>
+    {/* <!-- Letters --> */}
+    <text
+      alignmentBaseline="middle"
+      fill="currentColor"
+      fontFamily="Arial"
+      fontSize="40"
+      textAnchor="middle"
+      x="50"
+      y="30"
+    >
+      C
+    </text>
+    <text
+      alignmentBaseline="middle"
+      fill="currentColor"
+      fontFamily="Arial"
+      fontSize="40"
+      textAnchor="middle"
+      x="50"
+      y="80"
+    >
+      S
+    </text>
+  </svg>
 );
 
 export const DiscordIcon: React.FC<IconSvgProps> = ({

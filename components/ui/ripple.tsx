@@ -20,7 +20,7 @@ const Ripple = React.memo(() => {
               animationDelay: `${i * 0.06}s`,
             } as CSSProperties
           }
-        ></div>
+        />
       ))}
     </div>
   );

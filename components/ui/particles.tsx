@@ -45,6 +45,7 @@ function hexToRgb(hex: string): number[] {
   const red = (hexInt >> 16) & 255;
   const green = (hexInt >> 8) & 255;
   const blue = hexInt & 255;
+
   return [red, green, blue];
 }
 
@@ -101,6 +102,7 @@ const Particles: React.FC<ParticlesProps> = ({
       const x = mousePosition.x - rect.left - w / 2;
       const y = mousePosition.y - rect.top - h / 2;
       const inside = x < w / 2 && x > -w / 2 && y < h / 2 && y > -h / 2;
+
       if (inside) {
         mouse.current.x = x;
         mouse.current.y = y;
@@ -145,6 +147,7 @@ const Particles: React.FC<ParticlesProps> = ({
     const dx = (Math.random() - 0.5) * 0.1;
     const dy = (Math.random() - 0.5) * 0.1;
     const magnetism = 0.1 + Math.random() * 4;
+
     return {
       x,
       y,
@@ -164,6 +167,7 @@ const Particles: React.FC<ParticlesProps> = ({
   const drawCircle = (circle: Circle, update = false) => {
     if (context.current) {
       const { x, y, translateX, translateY, size, alpha } = circle;
+
       context.current.translate(translateX, translateY);
       context.current.beginPath();
       context.current.arc(x, y, size, 0, 2 * Math.PI);
@@ -191,8 +195,10 @@ const Particles: React.FC<ParticlesProps> = ({
   const drawParticles = () => {
     clearContext();
     const particleCount = quantity;
+
     for (let i = 0; i < particleCount; i++) {
       const circle = circleParams();
+
       drawCircle(circle);
     }
   };
@@ -206,6 +212,7 @@ const Particles: React.FC<ParticlesProps> = ({
   ): number => {
     const remapped =
       ((value - start1) * (end2 - start2)) / (end1 - start1) + start2;
+
     return remapped > 0 ? remapped : 0;
   };
 
@@ -223,6 +230,7 @@ const Particles: React.FC<ParticlesProps> = ({
       const remapClosestEdge = parseFloat(
         remapValue(closestEdge, 0, 20, 0, 1).toFixed(2),
       );
+
       if (remapClosestEdge > 1) {
         circle.alpha += 0.02;
         if (circle.alpha > circle.targetAlpha) {
@@ -253,6 +261,7 @@ const Particles: React.FC<ParticlesProps> = ({
         circles.current.splice(i, 1);
         // create a new circle
         const newCircle = circleParams();
+
         drawCircle(newCircle);
         // update the circle position
       }
@@ -261,7 +270,7 @@ const Particles: React.FC<ParticlesProps> = ({
   };
 
   return (
-    <div className={className} ref={canvasContainerRef} aria-hidden="true">
+    <div ref={canvasContainerRef} aria-hidden="true" className={className}>
       <canvas ref={canvasRef} className="h-full w-full" />
     </div>
   );

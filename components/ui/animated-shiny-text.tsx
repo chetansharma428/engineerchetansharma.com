@@ -1,5 +1,6 @@
-import { cn } from "@/lib/utils";
 import { CSSProperties, FC, ReactNode } from "react";
+
+import { cn } from "@/lib/utils";
 
 interface AnimatedShinyTextProps {
   children: ReactNode;
@@ -14,11 +15,6 @@ const AnimatedShinyText: FC<AnimatedShinyTextProps> = ({
 }) => {
   return (
     <p
-      style={
-        {
-          "--shimmer-width": `${shimmerWidth}px`,
-        } as CSSProperties
-      }
       className={cn(
         "mx-auto max-w-md text-neutral-600/50 dark:text-neutral-400/50 ",
 
@@ -30,6 +26,11 @@ const AnimatedShinyText: FC<AnimatedShinyTextProps> = ({
 
         className,
       )}
+      style={
+        {
+          "--shimmer-width": `${shimmerWidth}px`,
+        } as CSSProperties
+      }
     >
       {children}
     </p>

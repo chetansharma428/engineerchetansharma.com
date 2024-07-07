@@ -1,4 +1,3 @@
-
 import DefaultLayout from "@/layouts/default";
 import Meteors from "@/components/ui/meteors";
 import Herosection from "@/components/herosection";
@@ -53,14 +52,14 @@ export default function IndexPage() {
             </span>
           </Snippet>
         </div>
-      </section> */} 
-      <Meteors/>
-      <Herosection/>
-      <About/>
-      <Journey/> 
-      <Projects/>
-      <Skills/>
-      <Contact/>
+      </section> */}
+      <Meteors />
+      <Herosection />
+      <About />
+      <Journey />
+      <Projects />
+      <Skills />
+      <Contact />
     </DefaultLayout>
   );
 }
