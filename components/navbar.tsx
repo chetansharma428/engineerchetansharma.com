@@ -67,7 +67,7 @@ export const Navbar = () => {
           </Link>
           <ThemeSwitch />
           <div className="flex items-center justify-center gap-x-6">
-            <Link href="https://drive.usercontent.google.com/u/1/uc?id=1SPwhK8euPgV4u028zwIg743ihY1t_Yws&export=download">
+            <Link href="https://drive.usercontent.google.com/u/1/uc?id=1S9kGQaYv_Zd-wNS-t-wue1PuhDOskcK1&export=download">
               <ShimmerButton className="shadow-2xl">
                 <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                   Resume
