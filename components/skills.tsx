@@ -63,7 +63,7 @@ const Skills = () => {
               <div className="col text-2xl h4">Frontend</div>
               <div className="col flex flex-row justify-around flex-wrap gap-3">
                 <div className="col">
-                  <p>
+                  <div>
                     Angular JS
                     <span>
                       <Image
@@ -73,10 +73,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     JavaScript{" "}
                     <span>
                       <Image
@@ -86,10 +86,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     React JS{" "}
                     <span>
                       <Image
@@ -99,10 +99,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     Tailwind CSS
                     <span>
                       <Image
@@ -112,10 +112,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     Bootstrap 5{" "}
                     <span>
                       <Image
@@ -125,10 +125,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     HTML{" "}
                     <span>
                       <Image
@@ -138,15 +138,15 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     CSS{" "}
                     <span>
                       <Image alt="CSS" height={48} src="/css.svg" width={48} />
                     </span>
-                  </p>
+                  </div>
                 </div>
               </div>
               <BorderBeam delay={9} duration={12} size={300} />
@@ -155,9 +155,9 @@ const Skills = () => {
               <div className="col text-2xl h4">Backend</div>
               <div className="col flex flex-row flex-wrap gap-4">
                 <div className="col">
-                  <p className="flex justify-center items-start flex-col gap-2 pb-2">
+                  <div className="flex justify-center items-start flex-col gap-2 pb-2">
                     Next JS{" "}
-                  </p>
+                  </div>
                   <span>
                     <svg
                       aria-label="Next.js logotype"
@@ -203,7 +203,7 @@ const Skills = () => {
                   </span>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     Express JS{" "}
                     <span>
                       <Image
@@ -213,10 +213,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     Spring boot{" "}
                     <span>
                       <Image
@@ -226,7 +226,7 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
               </div>
               <BorderBeam delay={9} duration={12} size={300} />
@@ -235,7 +235,7 @@ const Skills = () => {
               <div className="col text-2xl h4">Database</div>
               <div className="col flex flex-row flex-wrap gap-4">
                 <div className="col">
-                  <p>
+                  <div>
                     MySQL{" "}
                     <span>
                       <Image
@@ -245,10 +245,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     MongoDB{" "}
                     <span>
                       <Image
@@ -258,7 +258,7 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
               </div>
               <BorderBeam delay={9} duration={12} size={300} />
@@ -267,7 +267,7 @@ const Skills = () => {
               <div className="col text-2xl h4">Tools</div>
               <div className="col flex flex-row flex-wrap gap-4">
                 <div className="col">
-                  <p>
+                  <div>
                     Docker{" "}
                     <span>
                       <Image
@@ -277,10 +277,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     Postman{" "}
                     <span>
                       <Image
@@ -290,10 +290,10 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     Insomnia{" "}
                     <span>
                       <Image
@@ -303,15 +303,15 @@ const Skills = () => {
                         width={48}
                       />
                     </span>
-                  </p>
+                  </div>
                 </div>
                 <div className="col">
-                  <p>
+                  <div>
                     Git{" "}
                     <span>
                       <Image alt="Git" height={48} src="/git.svg" width={48} />
                     </span>
-                  </p>
+                  </div>
                 </div>
               </div>
               <BorderBeam delay={9} duration={12} size={300} />

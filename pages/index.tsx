@@ -6,6 +6,7 @@ import Journey from "@/components/journey";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import Contact from "@/components/contact";
+import BackToTop from "@/components/backtotop";
 export default function IndexPage() {
   return (
     <DefaultLayout>
@@ -60,6 +61,7 @@ export default function IndexPage() {
       <Projects />
       <Skills />
       <Contact />
+      <BackToTop/>
     </DefaultLayout>
   );
 }

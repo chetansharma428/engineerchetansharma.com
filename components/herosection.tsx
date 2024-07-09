@@ -8,6 +8,7 @@ const Herosection = () => {
   return (
     <div>
       <div className="relative isolate px-6 pt-14 lg:px-8">
+        
         {/* <div
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                     aria-hidden="true"
@@ -50,16 +51,6 @@ const Herosection = () => {
             </div>
           </div>
         </div>
-        {/* <AnimatedGridPattern
-                    numSquares={30}
-                    maxOpacity={0.5}
-                    duration={3}
-                    repeatDelay={1}
-                    className={cn(
-                        "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
-                        "inset-x-0 inset-y-[-50%] h-[200%] skew-y-12",
-                    )}
-                /> */}
         <div
           aria-hidden="true"
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"

@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 const About = () => {
   return (
     <div id="section1">
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative px-6 pt-14 lg:px-8">
         {/* <div
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                     aria-hidden="true"
@@ -25,7 +25,7 @@ const About = () => {
                 </div> */}
         <div className="mx-auto  py-24">
           <div className="text-center">
-            <AnimatedGridPattern
+            {/* <AnimatedGridPattern
               className={cn(
                 "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
                 "inset-x-0 inset-y-[-40%] h-[200%] skew-y-12",
@@ -34,7 +34,7 @@ const About = () => {
               maxOpacity={0.5}
               numSquares={30}
               repeatDelay={1}
-            />
+            /> */}
             <div className="text-4xl text-white-900 py-8">About Me</div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

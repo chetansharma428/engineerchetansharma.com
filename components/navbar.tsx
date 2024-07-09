@@ -24,7 +24,7 @@ import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
   return (
-    <NextUINavbar className="sticky top-0 z-50" maxWidth="xl">
+    <NextUINavbar className="sticky top-0" maxWidth="xl">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">

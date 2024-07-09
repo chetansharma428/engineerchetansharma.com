@@ -20,7 +20,7 @@ export default function DefaultLayout({
   }, [theme]);
 
   return (
-    <div className="relative flex flex-col h-screen">
+    <div className="relative flex flex-col">
       <Particles
         refresh
         className="absolute inset-0"
