@@ -62,14 +62,14 @@ const Skills = () => {
             <div className="relative flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg box">
               <div className="col text-2xl h4">Frontend</div>
               <div className="col flex flex-row justify-around flex-wrap gap-3">
-                <div className="col">
+              <div className="col">
                   <div>
-                    Angular JS
+                    React JS{" "}
                     <span>
                       <Image
-                        alt="Angular JS"
+                        alt="React JS"
                         height={48}
-                        src="/angular.svg"
+                        src="/react.svg"
                         width={48}
                       />
                     </span>
@@ -90,17 +90,30 @@ const Skills = () => {
                 </div>
                 <div className="col">
                   <div>
-                    React JS{" "}
+                    Angular JS
                     <span>
                       <Image
-                        alt="React JS"
+                        alt="Angular JS"
                         height={48}
-                        src="/react.svg"
+                        src="/angular.svg"
                         width={48}
                       />
                     </span>
                   </div>
                 </div>
+                <div className="col">
+                  <div>
+                    Typescript{" "}
+                    <span>
+                      <Image
+                        alt="Typescript"
+                        height={48}
+                        src="/typescript.svg"
+                        width={48}
+                      />
+                    </span>
+                  </div>
+                </div>       
                 <div className="col">
                   <div>
                     Tailwind CSS
@@ -126,28 +139,7 @@ const Skills = () => {
                       />
                     </span>
                   </div>
-                </div>
-                <div className="col">
-                  <div>
-                    HTML{" "}
-                    <span>
-                      <Image
-                        alt="HTML"
-                        height={48}
-                        src="/html.svg"
-                        width={48}
-                      />
-                    </span>
-                  </div>
-                </div>
-                <div className="col">
-                  <div>
-                    CSS{" "}
-                    <span>
-                      <Image alt="CSS" height={48} src="/css.svg" width={48} />
-                    </span>
-                  </div>
-                </div>
+                </div>      
               </div>
               <BorderBeam delay={9} duration={12} size={300} />
             </div>
@@ -210,6 +202,19 @@ const Skills = () => {
                         alt="Express JS"
                         height={48}
                         src="/express-js.svg"
+                        width={48}
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div className="col">
+                  <div>
+                    Node JS{" "}
+                    <span>
+                      <Image
+                        alt="Node JS"
+                        height={48}
+                        src="/nodejs.svg"
                         width={48}
                       />
                     </span>
