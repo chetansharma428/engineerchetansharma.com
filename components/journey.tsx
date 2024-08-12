@@ -82,28 +82,6 @@ const Journey = () => {
               My Professional Journey
             </div>
           </div>
-          {/* <div className="grid grid-cols-1 md:grid-cols-2">
-                        <div className="flex items-center justify-center">
-                            <div className="mt-6 text-md md:text-lg leading-8 text-White-600">
-                                My love for software engineering began with the 'hello world' program in C language while pursuing my computer science undergraduate studies. From there on I delved deeper into building games and online software applications. During my Masters I interned at OpenWorkPark, an e-commerce and gaming start-up based in Delhi. There I got extensive experience with navigating and debuging issues in large-scale projects, which were being utilized by thousands of concurrent users.<br />
-                                I built following two applications: <br />
-                                <ul className="list-disc">
-                                    <li>
-                                        Dashboard for flight, hotel, insurance scheduling and bookings. <br />
-                                        <span className="font-bold"> Tech stack: Angular JS, Nebular, Tailwind CSS, Bootstrap, APIs, Docker.</span>
-                                    </li>
-                                    <li>
-                                        Interactive and dynamic game to improve hiring for Recruiters. <br />
-                                        <span className="font-bold"> Tech stack: Phaser JS, XML, Docker.</span>
-                                    </li>
-                                </ul>
-                                Currently, I'm looking forward to new Opportunities to collaborate and create exciting applications to solve real-world problems.
-                            </div>
-                        </div>
-                        <div className="mt-6 flex items-center justify-center gap-x-6">
-                            
-                        </div>
-                    </div> */}
           <div className="mt-6 space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
             {/* <!-- Item #1 --> */}
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group ">
@@ -116,49 +94,22 @@ const Journey = () => {
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent p-6 rounded border">
                 <div className="flex items-center justify-between space-x-2 mb-1">
                   <div className="font-bold text-white-900 text-xl">
-                    Full Stack Developer, Globalogy
+                    Full-stack Development Engineer @Globalogy, Remote, Canada
                   </div>
                   <time className="font-caveat font-medium text-indigo-500">
-                    2024-Present
+                    (01/02/2024 – 08/06/2024)
                   </time>
                 </div>
                 <div className="text-white-500">
                   <ul className="list-disc mx-2">
-                    <li>
-                      <strong>Project:</strong> Developing a full-stack dynamic
-                      website from scratch.
-                    </li>
-                    <li>
-                      <strong>Design:</strong> Created in Figma, focusing on
-                      user-friendly interfaces.
-                    </li>
-                    <li>
-                      <strong>Frontend:</strong> Built with React, implementing
-                      lazy loading and responsive design.
-                    </li>
-                    <li>
-                      <strong>Backend:</strong> Developed with Node.js and
-                      Express, ensuring secure and scalable APIs.
-                    </li>
-                    <li>
-                      <strong>Database:</strong> Utilized SQL, optimizing
-                      schemas, and enhancing performance through indexing and
-                      query optimization.
-                    </li>
-                    <li>
-                      <strong>Optimization:</strong> Applied techniques for
-                      improved website performance and database efficiency.
-                    </li>
-                    <li>
-                      <strong>Ongoing:</strong> Continually adding features,
-                      refining the application, and monitoring performance
-                      metrics.
-                    </li>
+                    <li>Engineered a responsive web application using ReactJS, significantly improving mobile user engagement</li>
+                    <li>Developed secure REST APIs with ExpressJS, enhancing data security and transaction efficiency</li>
+                    <li>Optimized MySQL database performance, substantially reducing query response times</li>
+                    <li>Implemented advanced indexing strategies, boosting overall system efficiency and reducing server load</li>
                   </ul>
                 </div>
               </div>
             </div>
-
             {/* <!-- Item #2 --> */}
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group ">
               {/* <!-- Icon --> */}
@@ -167,42 +118,60 @@ const Journey = () => {
                 className="flex items-center justify-center w-10 h-10 rounded-full border  bg-indigo-500 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
               />
               {/* <!-- Card --> */}
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent p-6 rounded border border-slate-200 shadow">
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent p-6 rounded border">
                 <div className="flex items-center justify-between space-x-2 mb-1">
                   <div className="font-bold text-white-900 text-xl">
-                    Software Engineer Intern, OpenWorkPark.
+                    Full-stack Development Engineer @Wathare Infotech Solutions, Pune, India
                   </div>
                   <time className="font-caveat font-medium text-indigo-500">
-                    2023
+                    (01/07/2022 – 31/01/2024)
                   </time>
                 </div>
                 <div className="text-white-500">
                   <ul className="list-disc mx-2">
-                    <li>
-                      Led the development of dashboard for flight, hotel,
-                      insurance scheduling and bookings.
-                      <br />
-                      Tech stack:{" "}
-                      <strong>
-                        Angular JS, Nebular, Tailwind CSS, Bootstrap, APIs,
-                        Docker
-                      </strong>
-                    </li>
-                    <li>
-                      Created an Interactive and dynamic game to improve hiring
-                      for Recruiters. <br />
-                      Tech Stack: <strong>Phaser JS, XML, Docker</strong>
-                    </li>
+                    <li>Developed and maintained web applications using JavaScript, React, Node.js, and Express.js, focusing on enhancing user
+                      engagement and functionality.</li>
+                    <li>Implemented RESTful APIs to improve data flow and integration between front-end and back-end systems.</li>
+                    <li>Optimized MySQL database queries and structures, significantly improving application performance and response times.</li>
+                    <li>Collaborated with UX/UI teams to redesign and improve user interfaces, enhancing overall user experience and retention.</li>
+                    <li>Worked with  backend development efforts for scalable services, enabling robust functionality across  applications.</li>
+                    <li>Worked within cross-functional teams to deliver high-quality software solutions, adhering to best practices and project
+                      timelines.</li>
                   </ul>
                 </div>
               </div>
             </div>
-
             {/* <!-- Item #3 --> */}
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group ">
               {/* <!-- Icon --> */}
               <div
                 ref={div3Ref}
+                className="flex items-center justify-center w-10 h-10 rounded-full border  bg-indigo-500 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+              />
+              {/* <!-- Card --> */}
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent p-6 rounded border border-slate-200 shadow">
+                <div className="flex items-center justify-between space-x-2 mb-1">
+                  <div className="font-bold text-white-900 text-xl">
+                    Junior Developer Intern, OPENWORK PARK, Noida, India
+                  </div>
+                  <time className="font-caveat font-medium text-indigo-500">
+                    (01/2022 – 06/2022)
+                  </time>
+                </div>
+                <div className="text-white-500">
+                  <ul className="list-disc mx-2">
+                    <li>Revamped website designs using AngularJS, contributing to improved user retention</li>
+                    <li>Optimized frontend performance, notably reducing page load times and enhancing user experience</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Item #4 --> */}
+            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group ">
+              {/* <!-- Icon --> */}
+              <div
+                ref={div4Ref}
                 className="flex items-center justify-center w-10 h-10 rounded-full border  bg-indigo-500 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
               />
               {/* <!-- Card --> */}
@@ -226,34 +195,6 @@ const Journey = () => {
                 </div>
               </div>
             </div>
-
-            {/* <!-- Item #4 --> */}
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group ">
-              {/* <!-- Icon --> */}
-              <div
-                ref={div4Ref}
-                className="flex items-center justify-center w-10 h-10 rounded-full border  bg-indigo-500 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
-              />
-              {/* <!-- Card --> */}
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent p-6 rounded border border-slate-200 shadow">
-                <div className="flex items-center justify-between space-x-2 mb-1">
-                  <div className="font-bold text-white-900 text-xl">
-                    Bachelor's in Computer Applications.
-                  </div>
-                  <time className="font-caveat font-medium text-indigo-500">
-                    2020
-                  </time>
-                </div>
-                <div className="text-white-500">
-                  <ul className="list-disc mx-2">
-                    <li>
-                      Singhania University, <br />
-                      📍 Jhunjhunu, Rajasthan
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div
@@ -268,16 +209,6 @@ const Journey = () => {
             }}
           />
         </div>
-        {/* <AnimatedGridPattern
-                            numSquares={30}
-                            maxOpacity={0.5}
-                            duration={3}
-                            repeatDelay={1}
-                            className={cn(
-                                "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
-                                "inset-x-0 inset-y-[-20%] h-[200%] skew-y-12",
-                            )}
-                        /> */}
       </div>
     </div>
   );

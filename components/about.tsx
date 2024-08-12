@@ -50,45 +50,13 @@ const About = () => {
             </div>
             <div className="flex items-center justify-center">
               <div className="mt-6 text-md md:text-lg leading-8 text-White-600">
-                My love for software engineering began with the 'hello world'
-                program in C language while pursuing my computer science
-                undergraduate studies. From there on I delved deeper into
-                building games and online software applications. During my
-                Masters I interned at OpenWorkPark, an e-commerce and gaming
-                start-up based in Delhi. There I got extensive experience with
-                navigating and debuging issues in large-scale projects, which
-                were being utilized by thousands of concurrent users.
+                My journey in software engineering began with a simple 'Hello World' program and has since blossomed into a passion for creating innovative Products. From my early days at OpenWork Park to my recent role at Globalogy, I've cultivated a diverse skill set that spans the full software development lifecycle. <br/>
+                I specialize in building robust, scalable applications using a variety of technologies. My expertise includes frontend development with <strong>React.js and Next.js</strong>, backend systems with <strong>Node.js and Express</strong>, and database optimization across<strong>SQL and NoSQL</strong> platforms. I've engineered responsive interfaces, developed secure APIs, and implemented advanced performance optimization strategies. <br/>
+                <Divider className="my-3" />
+                Beyond web development, I'm passionate about exploring emerging technologies and their potential to solve complex problems. Whether it's crafting e-commerce platforms, developing custom CMS solutions, or optimizing system architectures, I approach each project with a focus on efficiency, security, and user experience.<br/>
+                Proficient in languages like <strong>JavaScript, TypeScript, and C++</strong>, I'm always eager to expand my technical repertoire. I thrive in collaborative environments and am dedicated to creating impactful software solutions that address real-world challenges across various domains of technology.
                 <br />
                 <Divider className="my-3" />
-                I built following two applications: <br />
-                <ul className="list-disc">
-                  <li>
-                    Dashboard for flight, hotel, insurance scheduling and
-                    bookings. <br />
-                    <span className="font-bold">
-                      {" "}
-                      Tech stack: Angular JS, Nebular, Tailwind CSS, Bootstrap,
-                      APIs, Docker.
-                    </span>
-                  </li>
-                  <li>
-                    Interactive and dynamic game to improve hiring for
-                    Recruiters. <br />
-                    <span className="font-bold">
-                      {" "}
-                      Tech stack: Phaser JS, XML, Docker.
-                    </span>
-                  </li>
-                </ul>
-                <Divider className="my-3" />
-                Currently, I am working as a Full Stack Developer, building a
-                full-stack dynamic website from scratch. The project involves
-                designing in Figma, using React for the frontend, Express for
-                the API, SQL for the database, and Node.js for the backend. I
-                have implemented multiple optimization techniques for both
-                website performance and database efficiency. <br />
-                I'm looking forward to new opportunities to collaborate and
-                create exciting applications that solve real-world problems.
               </div>
             </div>
           </div>

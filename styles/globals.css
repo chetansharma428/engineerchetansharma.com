@@ -2,6 +2,8 @@
   @tailwind components;
   @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
   @layer base {
     :root {
       --background: 0 0% 100%;
@@ -88,6 +90,12 @@
     font-family: system, -apple-system, BlinkMacSystemFont, Roboto,
       "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     
+  }
+  .Logo{
+    font-size: 30px;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
   .head-text{
     color: wheat;

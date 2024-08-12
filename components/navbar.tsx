@@ -28,8 +28,8 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
-            {/* <p className="font-bold text-inherit">CS</p> */}
+            {/* <Logo /> */}
+            <span className="Logo">CS</span>
           </NextLink>
         </NavbarBrand>
         <div className="hidden lg:flex gap-4 justify-start ml-2">
@@ -67,7 +67,7 @@ export const Navbar = () => {
           </Link>
           <ThemeSwitch />
           <div className="flex items-center justify-center gap-x-6">
-            <Link href="https://drive.usercontent.google.com/u/1/uc?id=1S9kGQaYv_Zd-wNS-t-wue1PuhDOskcK1&export=download">
+            <Link href="https://drive.usercontent.google.com/download?id=1VxOvxGKfqA_EBA4kURSjPvm43g6WQz6A&export=download&authuser=1&confirm=t&uuid=8944c18a-e67b-4c0f-b701-9882675d23a7&at=APZUnTXqk1vEIMRexwkOkSgAu8VF:1723467258468">
               <ShimmerButton className="shadow-2xl">
                 <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                   Resume
